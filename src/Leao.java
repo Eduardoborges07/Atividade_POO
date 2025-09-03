@@ -1,16 +1,16 @@
 
-public class Gato extends Animal {
-	private String cor;
+public class Leao extends Animal {
+	private double tamanhoJuba;
 
-    public Gato(String nome, int idade, double peso, String habitat, String cor) {
+    public Leao(String nome, int idade, double peso, String habitat, double tamanhoJuba) {
         super(nome, idade, peso, habitat);
-        this.cor = cor;
+        this.tamanhoJuba = tamanhoJuba;
     }
     public void emitirSom() {
-        System.out.println("Miau");
+        System.out.println("Rugido");
     }
     public void alimentar() {
-    System.out.println("Ração de gato");
+    System.out.println("Carne");
     }
 
 }
